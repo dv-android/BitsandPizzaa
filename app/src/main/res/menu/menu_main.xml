@@ -7,17 +7,17 @@
         android:orderInCategory="1"
         android:icon="@drawable/ic_add_shopping_cart_black_24dp"
         android:title="@string/action_create_order"
-        app:showAsAction="ifRoom"/>
+        android:showAsAction="always"/>
     <item
         android:id="@+id/action_share"
         android:title="@string/action_share"
         android:orderInCategory="2"
-        app:showAsAction="ifRoom"
+        android:showAsAction="always"
         android:actionProviderClass="android.widget.ShareActionProvider"/>
 
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
 
-        app:showAsAction="never" />
+        android:showAsAction="never" />
 </menu>
